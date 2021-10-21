@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: grey;
+    column-width: auto;
+}
+
+.box {
+    width: 80%;
+    height: 90%;
+    overflow-y: hidden;
+}
+
+.box img {
+    width: 100%;
+    transition: 5s;
+}
+
+.box:hover img {
+    transform: translateY(-100%);
+}
